@@ -38,7 +38,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Blog" />
       <Content>
-        <h1>Blog</h1>
+        <h1>Projets</h1>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate
@@ -79,7 +79,7 @@ export const query = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { draft: { eq: false } } }
+      filter: { frontmatter: { tags: { in: ["projects"] } } }
     ) {
       totalCount
       edges {

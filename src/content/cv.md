@@ -1,6 +1,5 @@
 ---
 title: "CV"
-draft: true 
 path: "/cv"
 ---
 

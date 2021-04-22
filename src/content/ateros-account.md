@@ -1,8 +1,8 @@
 ---
 title: "Ateros Account"
-draft: false 
+tags: ["projects"] 
 date: "2020"
-path: "/blog/ateros-account"
+path: "/projects/ateros-account"
 ---
 
 Ateros Account est un système de gestion de comptes centralisé développé pour l'entreprise [Ateros](https://ateros.fr).
