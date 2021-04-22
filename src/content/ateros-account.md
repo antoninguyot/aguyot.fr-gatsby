@@ -28,3 +28,18 @@ Le cahier des charges était le suivant :
 
 - Bootstrap
 - [Hotwire Turbo](https://hotwire.dev) (framework Javascript HTML-over-the-wire)
+
+## Captures d'écran
+
+Quelques captures d'écran du produit fini (la totalité du site est testable sur [account.ateros.fr](https://account.ateros.fr))
+
+#### Accueil
+
+![Accueil](../images/account-accueil.png)
+
+
+#### Double authentification
+![Double authentification](../images/account-2fa.png)
+
+#### Sessions
+![Sessions](../images/account-sessions.png)
