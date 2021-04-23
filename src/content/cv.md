@@ -3,7 +3,7 @@ title: "CV"
 path: "/cv"
 ---
 
-[📄 Version PDF](https://aguyot.fr/pdf/CV_Antonin_Guyot.pdf)  
+[📄 Version PDF](https://static-cdn.ateros.fr/file/ateros/KfZ6Dclr1ud0norKhdDei1CTW0oMBs5Tw8cet2mD.pdf)  
 
 
 ## À propos
