@@ -11,6 +11,6 @@ et, couplé avec une envie de découvrir le [JAMStack](https://jamstack.org), ce
 ## Technologies utilisées
 
 - [Gatsby JS](https://gatsbyjs.com) comme static site generator
-- [Netlify](https://netlify.com) pour assurer la compilation & le déploiement
+- [Github Pages](https://pages.dev) pour le déploiement (alternative à Netlify)
 
 Le code source complet est disponible sur Github : [github.com/anto2oo/aguyot.fr-gatsby](https://github.com/anto2oo/aguyot.fr-gatsby)
