@@ -27,7 +27,24 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-reading-time`, {
+        plugins: [{
+          resolve: "gatsby-remark-embed-video",
+          options: {
+            width: 800,
+            related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+            noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+            loadingStrategy: "lazy", //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
+            urlOverrides: [
+              {
+                id: "youtube",
+                embedURL: videoId =>
+                  `https://www.youtube-nocookie.com/embed/${videoId}`,
+              },
+            ], //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
+          },
+        },
+          `gatsby-remark-responsive-iframe`,
+          `gatsby-remark-reading-time`, {
           resolve: `gatsby-remark-prismjs`,
           options: {
             aliases: { sh: "bash", js: "javascript" },
@@ -41,29 +58,6 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 590,
-            },
-          },
-          {
-            resolve: "gatsby-transformer-remark",
-            options: {
-              plugins: [
-                {
-                  resolve: "gatsby-remark-embed-video",
-                  options: {
-                    width: 800,
-                    related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
-                    noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
-                    loadingStrategy: 'lazy', //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
-                    urlOverrides: [
-                      {
-                        id: "youtube",
-                        embedURL: videoId =>
-                          `https://www.youtube-nocookie.com/embed/${videoId}`,
-                      },
-                    ], //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
-                  },
-                },
-              ],
             },
           },
         ],
