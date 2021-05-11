@@ -1,7 +1,7 @@
 ---
 title: "aguyot.fr"
 tags: ["projects"]
-date: "2021"
+date: "2021-04-22"
 path: "/projects/aguyot.fr"
 ---
 

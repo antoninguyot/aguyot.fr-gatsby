@@ -1,7 +1,7 @@
 ---
 title: "Documentation Common Lisp"
 tags: ["projects"]
-date: "2020"
+date: "2020-10-05"
 path: "/projects/clhs"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "SI de gestion d'un SRI"
 tags: ["projects"]
-date: "2019"
+date: "2019-11-12"
 path: "/projects/sri"
 ---
 
