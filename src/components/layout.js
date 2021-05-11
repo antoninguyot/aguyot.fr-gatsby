@@ -50,7 +50,7 @@ const Layout = ({ children }) => (
             © {new Date().getFullYear()}, Le code de ce site est disponible sur
             {` `}
             </p>
-            <GatsbyLink href="https://github.com/anto2oo">Github</GatsbyLink>
+            <GatsbyLink href="https://github.com/anto2oo/aguyot.fr-gatsby">Github</GatsbyLink>
           </Footer>
         </Content>
       </>
