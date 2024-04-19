@@ -9,13 +9,13 @@ Dérives est une expérience poétique pour téléphone sous la forme d'une appl
 musicien Hervé Zénouda, dans le cadre d'un projet d'étude (d'ailleurs toujours en cours), elle a pour vocation à être disponible
 sur tous les stores d'ici peu.
 
-La source du projet est disponible sur [Github](https://github.com/anto2oo/Derives)
+La source du projet est disponible sur [Github](https://github.com/anto2oo/Derives).
 
 ## Technologies utilisées
 
 - React Native (via le framework Expo)
 
-Toutes les informations étant traitées en local, le stack technologique est relativement restreint.
+Toutes les informations étant traitées en local, la stack technologique est relativement restreint.
 
 ## Captures d'écran
 `youtube: https://www.youtube.com/watch?v=vLIAdOIfz-8`
